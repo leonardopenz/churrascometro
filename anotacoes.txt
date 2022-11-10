@@ -1,0 +1,17 @@
+Regras de negocios
+
+Carne - 400gr por pessoa 
+Cerveja - 1200ml por pessoa 
+Refri/Agua - 1000ml por pessoa
+Carvão - 3kg por 3 horas de churrasco
+pao de alho - 1,5 por pessoa 
+pacote de farofa - 1 pacote a cada 6 pessoas
+
+Acima de 6hrs de churrasco, considerar os seguintes valores: 
+
+Carne - 650gr por pessoa 
+Cerveja - 2000ml por pessoa 
+Refri/Agua - 1500ml por pessoa
+Carvão - 3kg por 3 horas de churrasco
+pao de alho - 2,5 por pessoa 
+pacote de farofa - 1 pacote a cada 6 pessoas

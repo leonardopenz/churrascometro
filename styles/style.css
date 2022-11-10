@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarala:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Sarala', sans-serif;
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 3rem;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+p, label, input, button {
+    font-size: 1.5rem;
+}
+
+.container {
+    max-width: 40%;
+    max-height: 100vh;
+    background: #f3f8ff;
+}
+
+.text-content {
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 5rem;
+  }
+
+input {
+    width: 100%; /*pegou 100% da largura da linha de acordo com o div container */
+    display: block; /*faz que fique um elemento por linha */
+    padding: 5px;
+    box-sizing: border-box; /*informa que o elemento deve contar borda, padding, margin */
+    margin-bottom: 10px;
+}
