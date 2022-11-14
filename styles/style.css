@@ -2,11 +2,25 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
+:root{
+    --background-container: #DEB887;
+    --background-botao: #DEB887;
+    --background-botao-hover: #FFDEAD;
+    --border-botao: #FFDEAD;
+}
+
 * {
     margin: 0;
     padding: 0;
     border: 0;
     font-family: 'Sarala', sans-serif;
+}
+
+body {
+    background-image: url(../img/wallpaper.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
 
 h1 {
@@ -23,14 +37,25 @@ p, label, input, button {
 .container {
     max-width: 40%;
     max-height: 100vh;
-    background: #f3f8ff;
+    background: var(--background-container);
+    margin-left: 2em;
 }
 
 .text-content {
     max-width: 90%;
     margin: 0 auto;
     margin-top: 5rem;
-  }
+}
+
+.text-content button {
+    background-color: var(--background-botao);
+    border: 2px solid var(--border-botao);
+    margin: 1em auto;
+}
+
+.text-content button:hover{
+    background-color: var(--border-botao);
+}
 
 input {
     width: 100%; /*pegou 100% da largura da linha de acordo com o div container */
