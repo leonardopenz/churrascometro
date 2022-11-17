@@ -6,7 +6,6 @@
     --background-container: #DEB887;
     --background-botao: #DEB887;
     --background-botao-hover: #FFDEAD;
-    --border-botao: #FFDEAD;
 }
 
 * {
@@ -49,12 +48,12 @@ p, label, input, button {
 
 .text-content button {
     background-color: var(--background-botao);
-    border: 2px solid var(--border-botao);
+    border: 2px solid var(--background-botao-hover);
     margin: 1em auto;
 }
 
 .text-content button:hover{
-    background-color: var(--border-botao);
+    background-color: var(--background-botao-hover);
 }
 
 input {
