@@ -1,27 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
     <title>Churrascômetro</title>
-    <link rel="stylesheet" href="./styles/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
     <div class="container">
-        <div class="text-content">
-            <h1 class="churrascometro">Churrascômetro</h1>
-            <input type="number" name="numAldutos" id="numAdultos" class="adultos" placeholder="Número de Adultos" min="0" required>
-            <input type="number" name="numCriancas" id="numCriancas" class="criancas" placeholder="Número de Crianças" min="0" required>
-            <input type="number" name="numHoras" id="numHoras" class="horas" placeholder="Duração (horas)" min="1" required>
-            <button type="submit" onclick="calcChurras()" class="calcular">Calcular</button>
+      <div class="text-content">
+        <h1 class="churrascometro">Churrascômetro</h1>
+        <input type="number" name="numAldutos" id="numAdultos" class="adultos" placeholder="Número de Adultos" min="0" required />
+        <input type="number" name="numCriancas" id="numCriancas" class="criancas" placeholder="Número de Crianças" min="0" required />
+        <input type="number" name="numHoras" id="numHoras" class="horas" placeholder="Duração (horas)" min="1" required />
+        <button type="submit" onclick="calcChurras()" class="calcular">Calcular</button>
+        <button onclick="limparCampos()" class="limparCampos">Limpar</button>
 
-            <div id="resultado">
-        </div>
-        
-
-        </div>
+        <div id="resultado"></div>
+      </div>
     </div>
-    <script src="./scripts/script.js"></script>
-</body>
+    <script src="./scripts/script.js">
+      document.getElementById("numAdultos").value = '';
+      document.getElementById("numCriancas").value = '';
+    </script>
+  </body>
 </html>
